@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="todo.css" />
+    <title>Todo list</title>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="container-overlay"></div>
+    <div class="container">
+      <nav>
+        <h2>todos</h2>
+      </nav>
+      <header>
+        <form class="form" data-form>
+          <input
+            type="text"
+            id="head"
+            data-input
+            placeholder="Та юу хийхийг хүсэж байна."
+          />
+          <label for="head">
+            <button class="btn"><i class="bi bi-plus-circle"></i></button>
+          </label>
+        </form>
+      </header>
+      <!-- <aside> -->
+      <!-- <div class="box-1">
+          <label for="category">
+            <input type="radio" name="name" hidden id="category" />
+            <span>Ажлийн хийх төлөвлөгөө</span>
+          </label> -->
+      <!-- </div> -->
+
+      <!-- <div class="box-2">
+          <label for="category-1">
+            <input type="radio" name="name" hidden id="category-1" />
+            <span>Хувийн хийх төлөвлөгөө</span>
+          </label>
+        </div> -->
+      <!-- </aside> -->
+      <main id="tasks">
+        <section data-lists class="task-list">
+          <h2>Төлөвлөгөөнүүд</h2>
+
+          <!-- <div class="task"> -->
+          <!-- <div class="content">
+                <input type="text" class="text" value="My shiny" readonly />
+              </div>
+              <div class="actions">
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+              </div> -->
+          <!-- </div> -->
+          <!-- </div> -->
+        </section>
+      </main>
+
+      <!-- <label for="hidden" class="hox"></label
+      ><input type="checkbox" hidden id="hidden" class="hid" /> -->
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
